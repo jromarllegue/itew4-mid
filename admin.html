@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DCPMSw/AS - Admin</title>
+	<link rel="stylesheet" type="text/css" href="admin.css"> </link>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<a class="brand" href="mainpage.html">Doctor's Dental Clinic</a>
+		<div class="header-options">
+			<a href="login.html">Exit Admin</a>
+		</div>
+	</div>
+	<div class="parent-container">
+		<div class="user-container">
+			<label class="title">User Details</label>	
+			<div class="user-box">
+				<table id="userTable">
+					<tr>
+						<th>User ID</th>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>Email</th>
+						<th>Password</th>
+					</tr>
+				</table>
+			</div>
+			<button id="createUser" onclick="addAccount()">CREATE</button>
+			<button id="updateUser" onclick="getID()">UPDATE</button>	
+					
+		</div>
+		<div class="report-container" align="center">
+			<label class="title">Admin Reports</label>
+			<div class="report-box">
+			</div>
+		</div>
+	</div> 	
+
+
+		<script src="admin.js"></script>
+</body>
+	</html>

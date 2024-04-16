@@ -1,0 +1,253 @@
+body,input {
+	margin: auto;
+	font-family: Calibri, sans-serif;
+}
+.header {
+	top:0;
+	width: 100%;
+	height: 60px;
+	background-color: #0062ff;
+}
+
+.brand {
+	position: absolute;
+	left: 0;
+	padding: 15px;
+	font-size: 24px;
+	font-style: oblique;
+	color: white;
+	text-decoration: none;
+}
+
+.header-options {
+	position: absolute;
+	right: 0;
+	padding: 20px;
+}
+
+.header-options a {
+	text-align: center;
+	margin: 0px 10px 0px 10px;
+	font: 17px "Arial";
+	color:white;
+	text-decoration: none;
+}
+
+
+.parent-container {
+	display:flex;
+}
+
+.parent-continer div {
+
+}
+
+
+.user-container {
+	width:80%;
+}
+
+.report-container{
+	width:20%;
+
+}
+
+
+.title {
+	display: block;
+	padding: 10px 0px 10px 20px;
+	font-size: 37px;
+	font-weight: bold;
+}
+
+.user-box {
+	margin: 0px 20px 0px 20px;
+	width: 90%;
+	min-height: 470px;
+	height: 470px;
+	margin-bottom:10px;
+	border: 5px solid #c3c3c3;
+	overflow: auto;
+
+}
+
+.report-box {
+	margin: 0px 20px 0px 20px;
+	width: 80%;
+	min-height: 470px;
+	height: 470px;
+	margin-bottom:10px;
+	border: 5px solid #c3c3c3;
+	overflow: auto
+}
+
+
+.user-container button {
+	margin: 20px;
+	padding: 10px;
+	font-size: 14px;
+	color: black;
+	font-weight: bold;
+	background-color: #0062ff;
+}
+
+.gray-screen {
+	position: absolute;
+ 	height:100%;
+ 	width:100%;
+ 	z-index: 500;
+ 	background-color: rgba(0,0,0,0.7);
+}
+
+.create-form {
+	position: absolute;
+ 	padding:50px;
+	height: auto;
+	border:5px solid blue;
+	background-color: white;
+	align-items: center;
+    top: 10%;
+    left: 35%;
+    margin-top: -50px;
+    margin-left: -50px;
+ 
+}
+
+.create-form {
+ 	z-index: 999;
+	width: 450px;
+}
+
+
+.create-form {
+	position: absolute;
+	margin: 20px;
+	padding: 30px 30px 50px 30px;
+	margin-right: 20px;
+	background-color: white;
+	border:2px solid gray;
+	border: 10px solid #0062ff;
+}
+
+.create-form label {
+	display:block;
+	font-family: Verdana;
+}
+
+.create-form label:first-child {
+	font-size:31px;
+}
+
+.create-form input {
+	margin: 20px;
+	padding: 8px 8px 8px 15px;
+	font-size: 19px;	
+	border:1px solid black;
+	border-radius: 8px;
+}
+
+.create-form input:focus::placeholder {
+	color:transparent;
+}
+
+.create-form button {
+	display:inline-block;
+	width: 100px;
+	height:40px;
+	margin:30px 0px 5px 0px;
+	background-color: white;
+	border:#0062ff 2px solid;
+	border-radius: 25px;
+}
+
+table {
+	width:100%;
+	border-collapse: collapse;
+}
+
+tr,th,td {
+	border: 1px solid black;
+}
+
+.appointment-box {
+		position: relative;
+		width: 90%;
+	
+	}
+
+	.appointment-box a {
+		display: block;
+		padding-top: 120px;
+		font-size: 30px;
+		font-weight:bold;
+		color: #a1a1a1;
+	}
+
+.update-form {
+	position: absolute;
+ 	padding:50px;
+	height: auto;
+	border:5px solid blue;
+	background-color: white;
+	align-items: center;
+    top: 10%;
+    left: 35%;
+    margin-top: -50px;
+    margin-left: -50px;
+ 
+}
+
+.update-form {
+ 	z-index: 999;
+	width: 450px;
+}
+
+
+.update-form {
+	position: absolute;
+	margin: 20px;
+	padding: 30px 30px 50px 30px;
+	margin-right: 20px;
+	background-color: white;
+	border:2px solid gray;
+	border: 10px solid #0062ff;
+}
+
+.update-form label {
+	display:block;
+	font-family: Verdana;
+}
+
+.update-form label:first-child {
+	font-size:31px;
+}
+
+.update-form input {
+	margin: 20px;
+	padding: 8px 8px 8px 15px;
+	font-size: 19px;	
+	border:1px solid black;
+	border-radius: 8px;
+}
+
+.update-form input:focus::placeholder {
+	color:transparent;
+}
+
+.update-form button {
+	display:inline-block;
+	width: 100px;
+	height:40px;
+	margin:30px 0px 5px 0px;
+	background-color: white;
+	border:#0062ff 2px solid;
+	border-radius: 25px;
+}
+
+
+.report-box p {
+	padding:4px;
+	margin: 4px;
+	border:#c3c3c3 3px solid;
+
+}
